@@ -1,0 +1,15 @@
+TypeError: `@validator(..., each_item=True)` cannot be applied to fields with a schema of json-or-python still got this error
+
+
+
+this error occures when the version is not matched to solve this error just fix the version of the pydontic jwt and the all this 
+
+pip install fastapi==0.99.1
+pip install fastapi_jwt_auth==0.5.0
+pip install pydantic==1.10.11
+   --->updating this solve my problem 
+
+
+
+   ------important-----
+   config gareko model ko name same hunuparxa hai ta 
